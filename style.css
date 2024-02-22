@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+  border-bottom: 1px solid #eee;
+  padding: 0 0 0.25rem 0;
+}
+
+ul {
+  line-height: 0.9;
+}
+
+:root {
+  --main-color: #536704;
+  --secondary-color: #2f5000;
+}
+
+h3 {
+  font-size: 0.7rem;
+}
+.navbar {
+  background: var(--main-color) !important;
+}
+.btn {
+  background-color: var(--secondary-color) !important;
+  color: #fff !important;
+}
+.fa-mosque {
+  color: #fff;
+  font-size: 1.5rem;
+}
+.form-control:focus {
+  box-shadow: none !important;
+  border-color: var(--main-color) !important;
+}
+
+.time-remain-wrapper {
+  background-color: var(--main-color);
+}
+
+.second-color {
+  color: #ebdca7;
+}
+
+.table td {
+  font-size: 1.3rem;
+}
+
+.table td:nth-child(odd) {
+  font-weight: 700;
+}
+
+.active > td {
+  color: rgb(190, 28, 28);
+}
+
+.select {
+  padding: .25rem;
+  border: 3px solid var(--main-color);
+  border-radius: 5px;
+}
+
+.fa-location-dot {
+  color: var(--main-color);
+  font-size: .8rem;
+}
